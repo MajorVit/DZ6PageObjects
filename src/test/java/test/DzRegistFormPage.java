@@ -2,10 +2,10 @@ package test;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import pages.DZregistpage;
+import pages.DzRegistPage;
 
 
-public class DZregist {
+public class DzRegistFormPage {
     @BeforeAll
     static void configure() {
         Configuration.baseUrl = "https://demoqa.com";
@@ -15,8 +15,8 @@ public class DZregist {
     }
     @Test
     void formTest() {
-        DZregistpage DZregistpage = new DZregistpage();
-        DZregistpage.openPage()
+        DzRegistPage DzRegistPage = new DzRegistPage();
+        DzRegistPage.openPage()
         .setFirstName("Vital")
         .setLastName("Major")
         .setEmail("Vital@mail.ru")
@@ -30,7 +30,7 @@ public class DZregist {
         .setStateAndCity("NCR", "Delhi")
         .pressSubmit();
 
-        DZregistpage.checkResultsTableVisible()
+        DzRegistPage.checkResultsTableVisible()
                 .checkResult("Student Name", "Vital Major")
                 .checkResult("Student Email", "Vital@mail.ru")
                 .checkResult("Gender", "Male")
