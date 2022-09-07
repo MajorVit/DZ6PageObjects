@@ -48,7 +48,6 @@ public class RegistrationFormPageWithFaker extends TestBase {
 
         String expectedFullName = format("%s %s", firstName, lastName);
         String expectedDateOfBirth = format("%s %s,%s", day, month, year);
-        String expectedHobby = format("%s", hobby_1);
         String expectedStateAndCity = format("%s %s", state, city);
 
         DzRegistPage.checkResultsTableVisible()
@@ -58,7 +57,7 @@ public class RegistrationFormPageWithFaker extends TestBase {
                 .checkResult("Mobile", mobileNumber)
                 .checkResult("Date of Birth", expectedDateOfBirth)
                 .checkResult("Subjects", subjects)
-                .checkResult("Hobbies", expectedHobby)
+                .checkResult("Hobbies", hobby_1)
                 .checkResult("Picture", fileName)
                 .checkResult("Address", currentAddress)
                 .checkResult("State and City", expectedStateAndCity)

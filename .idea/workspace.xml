@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DzRegistPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DzRegistPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/DzRegistFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DzRegistFormPage.java" afterDir="false" />
+    <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects+Fakers">
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithFaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662567891024</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DZ6Objects+Fakers">
+      <created>1662584408718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662584408718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ6Objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ6Objects" />
+    <MESSAGE value="DZ6Objects+Fakers" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ6Objects+Fakers" />
   </component>
 </project>
