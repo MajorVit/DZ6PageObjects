@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DzRegistPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DzRegistPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/DzRegistFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DzRegistFormPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +62,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
       <recent name="pages.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DzRegistFormPage">
-    <configuration name="DZregist (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegistrationFormPageWithFaker">
+    <configuration name="RegistrationFormPageWithFaker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -72,7 +80,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.DZregist&quot;" />
+            <option value="&quot;test.RegistrationFormPageWithFaker&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -82,7 +90,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DzRegistFormPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationFormPageWithTestDataTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -95,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.DzRegistFormPage&quot;" />
+            <option value="&quot;test.RegistrationFormPageWithTestDataTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -105,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DzRegistFormPage.formTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationFormPageWithTestDataTests.formTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -118,7 +126,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.DzRegistFormPage.formTest&quot;" />
+            <option value="&quot;test.RegistrationFormPageWithTestDataTests.formTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormWithFaker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.RegistrationFormWithFaker&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormWithFakerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.RegistrationFormWithFakerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,9 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DzRegistFormPage" />
-        <item itemvalue="Gradle.DzRegistFormPage.formTest" />
-        <item itemvalue="Gradle.DZregist (1)" />
+        <item itemvalue="Gradle.RegistrationFormPageWithFaker" />
+        <item itemvalue="Gradle.RegistrationFormWithFaker" />
+        <item itemvalue="Gradle.RegistrationFormWithFakerTest" />
+        <item itemvalue="Gradle.RegistrationFormPageWithTestDataTests" />
+        <item itemvalue="Gradle.RegistrationFormPageWithTestDataTests.formTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662457754917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DZ6Objects">
+      <created>1662567891024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662567891024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

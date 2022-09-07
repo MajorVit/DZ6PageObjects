@@ -67,7 +67,7 @@ private SelenideElement  firstNameInput = $("#firstName"),
 
     public DzRegistPage setBirthDate(String day, String month, String year) {
         $("#dateOfBirthInput").click();
-        calendarComponent.setDate(year, month, day);
+        calendarComponent.setDate(day, month, year);
         return this;
     }
 
@@ -98,7 +98,7 @@ private SelenideElement  firstNameInput = $("#firstName"),
         return this;
     }
 
-    public DzRegistPage checkResultsTableVisible () {
+    public DzRegistPage checkResultsTableVisible() {
         resultsTableComponent.checkVisible();
 
         return this;
