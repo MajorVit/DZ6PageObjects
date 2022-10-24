@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects+Fakers+Jenkins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <recent name="pages.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationFormPageWithTestDataTests">
+  <component name="RunManager" selected="Gradle.DZ6 [allureServe]">
     <configuration name="DZ6 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -192,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationFormPageWithTestDataTests" />
         <item itemvalue="Gradle.DZ6 [allureServe]" />
+        <item itemvalue="Gradle.DZ6 [allureReport]" />
+        <item itemvalue="Gradle.RegistrationFormPageWithTestDataTests" />
         <item itemvalue="Gradle.RegistrationFormPageWithFaker (1)" />
         <item itemvalue="Gradle.DZ6 [test]" />
-        <item itemvalue="Gradle.DZ6 [allureReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666646182793</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DZ6Objects+Fakers+Jenkins">
+      <created>1666646806663</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666646806663</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
