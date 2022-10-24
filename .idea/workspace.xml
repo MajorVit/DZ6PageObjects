@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects+Fakers+Jenkins" />
+    <list default="true" id="737a8e81-0473-49c7-ba6d-79b459f543fe" name="Changes" comment="DZ6Objects+Fakers+Jenkins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithTestDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationFormPageWithTestDataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +82,7 @@
       <recent name="pages.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationFormPageWithFaker (1)">
+  <component name="RunManager" selected="Gradle.RegistrationFormPageWithTestDataTests">
     <configuration name="DZ6 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationFormPageWithFaker.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationFormPageWithTestDataTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.RegistrationFormPageWithFaker.fillFormTest&quot;" />
+            <option value="&quot;test.RegistrationFormPageWithTestDataTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationFormPageWithTestDataTests" />
         <item itemvalue="Gradle.RegistrationFormPageWithFaker (1)" />
         <item itemvalue="Gradle.DZ6 [test]" />
         <item itemvalue="Gradle.DZ6 [allureReport]" />
         <item itemvalue="Gradle.DZ6 [allureServe]" />
-        <item itemvalue="Gradle.RegistrationFormPageWithFaker.fillFormTest" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666644089373</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="DZ6Objects+Fakers+Jenkins">
+      <created>1666644532633</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666644532633</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

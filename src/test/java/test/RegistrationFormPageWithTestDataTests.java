@@ -59,14 +59,14 @@ public class RegistrationFormPageWithTestDataTests extends TestBase {
         $(".table-responsive table").$(byText("Student Name"))
                 .parent().shouldHave(text(firstName + " " + lastName));
 
-        String expectedDateOfBirth = format("%s %s %s", day, month, year);
+        String expectedDateOfBirth = format("%s %s,%s", day, month, year);
         $(".table-responsive table").$(byText("Date of Birth"))
                 .parent().shouldHave(text(expectedDateOfBirth));
 
         $(".modal-body").shouldHave(text("Vital@mail.ru"));
         $(".modal-body").shouldHave(text("Male"));
         $(".modal-body").shouldHave(text("8929555555"));
-        $(".modal-body").shouldHave(text("08 July, 2000"));
+        $(".modal-body").shouldHave(text("08 July,2000"));
         $(".modal-body").shouldHave(text("Arts"));
         $(".modal-body").shouldHave(text("Sport"));
         $(".modal-body").shouldHave(text("test.jpg"));
